@@ -2,23 +2,30 @@
 layout: page
 title: "About"
 description: ""
+group: navigation
 ---
 {% include JB/setup %}
 
 ###About This Blog
 
 #####Why Named "NO MORE HELLO WORLD"
+"Hello world" program is typically one of the simplest programs in most of programming language, and "NO MORE HELLO WORLD" always reminds me working hard to get through the tough life.
 
+#####Acknowledgements
+This blog is based on github pages and Jekyll-Bootstrap, thanks to thoses who dedicates making this freely and easily.
+
+And thanks to my roommates [Jiang ji](http://demote.github.io) and [Ma Jiuyue](http://majiuyue.me) who help me get into this.
 
 -----
 
 
 ###About Me
 
-<img src ="/assets/images/figure.jpg"/>
+<p align="middle"><img src ="/assets/images/figure.jpg"/> </p>
 
 
-
+<p> </p>
+<p> </p>
       
       
 
