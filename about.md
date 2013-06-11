@@ -35,6 +35,6 @@ Now I am pursuiting Ph.D. Degree in
 Currently I am focusing on research of Big Data Management and Big Data Analysis.
 
 
-My favor includes sports,tour,history,reading and seeing films. I dislike writing, and sometimes hate being alone. I do love sports, especially football and basketball, and recently addicted by badmiton.
+My favor includes sports,tour,history,reading and watching films. I dislike writing, and sometimes hate being alone. I do love sports, especially football and basketball, and recently addicted by badmiton.
 
 Follow me [@sina weibo](http://weibo.com/u/2120741027)
