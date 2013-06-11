@@ -5,8 +5,8 @@
         <description>No More Hello World !!! - Chris Zhang</description>
         <link>http://username.github.io</link>
         <link>http://username.github.io</link>
-        <lastBuildDate>2013-06-11T21:22:12+08:00</lastBuildDate>
-        <pubDate>2013-06-11T21:22:12+08:00</pubDate>
+        <lastBuildDate>2013-06-11T22:03:17+08:00</lastBuildDate>
+        <pubDate>2013-06-11T22:03:17+08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -22,7 +22,7 @@
 
         <item>
                 <title>Jekyll Introduction</title>
-                <description>&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
+                <description>&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does. &lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
 
