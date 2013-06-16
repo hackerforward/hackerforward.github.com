@@ -5,24 +5,36 @@
         <description>No More Hello World !!! - Chris Zhang</description>
         <link>http://username.github.io</link>
         <link>http://username.github.io</link>
-        <lastBuildDate>2013-06-10T15:17:49+08:00</lastBuildDate>
-        <pubDate>2013-06-10T15:17:49+08:00</pubDate>
+        <lastBuildDate>2013-06-16T20:57:09+08:00</lastBuildDate>
+        <pubDate>2013-06-16T20:57:09+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>How To Solve Problem Of Text File With Control M Characters</title>
+                <description>&lt;p&gt;In linux system when viewing text files which were edited in windows, we may suffer troubles by strange characters, and ^M is an usual one.&lt;/p&gt;
+&lt;img src='/assets/images/controlm.jpg' /&gt;
+&lt;p&gt;The ^M problem is caused by the difference of line terminator sysbol between windows and linux. The ^M characters are carriage returns. Windows and DOS terminate lines of text with CR (^M(\r), or ASCII code 13) followed by LF (^J(\n), or linefeed, ASCII code 10). Linux uses just LF.&lt;/p&gt;
+
+&lt;p&gt;We could solve this by two ways. One is use a utility named dos2unix to convert file from windows style to linux style, the other one is to open text file with vim editor, and execute command line &lt;code&gt;%s/^M//g&lt;/code&gt;, which will delete all ^M character. Noticed tha ^M is typed by pressing Control key + V+ M.&lt;/p&gt;</description>
+                <link>http://username.github.io/trick/How-to-solve-problem-of-text-file-with-control-m-characters</link>
+                <guid>http://username.github.io/trick/How-to-solve-problem-of-text-file-with-control-m-characters</guid>
+                <pubDate>2013-06-16T00:00:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>First</title>
                 <description>&lt;h1 id='dont_say_hello_world'&gt;Don&amp;#8217;t say hello world&lt;/h1&gt;
 &lt;img align='middle' height='500' src='/assets/images/about.jpg' width='300' /&gt;
 &lt;p&gt;&lt;a href='http://www.iie.ac.cn'&gt;http://www.iie.ac.cn&lt;/a&gt;&lt;/p&gt;</description>
-                <link>http://username.github.io/lessons/2013/05/21/First</link>
-                <guid>http://username.github.io/lessons/2013/05/21/First</guid>
+                <link>http://username.github.io/lessons/First</link>
+                <guid>http://username.github.io/lessons/First</guid>
                 <pubDate>2013-05-21T00:00:00+08:00</pubDate>
         </item>
 
         <item>
                 <title>Jekyll Introduction</title>
-                <description>&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
+                <description>&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does. &lt;!--break--&gt;&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
 
@@ -342,8 +354,8 @@ tags : [how-to, jekyll]
 &lt;h2 id='next_steps'&gt;Next Steps&lt;/h2&gt;
 
 &lt;p&gt;Please take a look at &lt;a href='' /&gt; or jump right into &lt;a href=''&gt;Usage&lt;/a&gt; if you&amp;#8217;d like.&lt;/p&gt;</description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>http://username.github.io/lessons/jekyll-introduction</link>
+                <guid>http://username.github.io/lessons/jekyll-introduction</guid>
                 <pubDate>2011-12-29T00:00:00+08:00</pubDate>
         </item>
 
