@@ -4,8 +4,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>About</title>
-    <meta name="description" content="">
+    <title>How To Solve Problem Of Text File With Control M Characters</title>
+    
     <meta name="author" content="Chris Zhang">
 
     <!-- Enable responsive viewport -->
@@ -57,7 +57,7 @@
     
       
       	
-      	<li class="active"><a href="/about.html" class="active">About</a></li>
+      	<li><a href="/about.html">About</a></li>
       	
       
     
@@ -106,31 +106,77 @@
 
       <div class="content">
         
+
 <div class="page-header">
-  <h1>About </h1>
+  <h1>How To Solve Problem Of Text File With Control M Characters </h1>
 </div>
 
-<div class="row-fluid">
+<div class="row-fluid post-full">
   <div class="span12">
-    <h3 id='about_this_blog'>About This Blog</h3>
+    <div class="date">
+      <span>16 June 2013</span>
+    </div>
+    <div class="content">
+      <p>In linux system when viewing text files which were edited in windows, we may suffer troubles by strange characters, and ^M is an usual one.</p>
+<img src='/assets/images/controlm.jpg' />
+<p>The ^M problem is caused by the difference of line terminator sysbol between windows and linux. The ^M characters are carriage returns. Windows and DOS terminate lines of text with CR (^M(\r), or ASCII code 13) followed by LF (^J(\n), or linefeed, ASCII code 10). Linux uses just LF.</p>
 
-<h5 id='why_named_no_more_hello_world'>Why Named &#8220;NO MORE HELLO WORLD&#8221;</h5>
+<p>We could solve this by two ways. One is use a utility named dos2unix to convert file from windows style to linux style, the other one is to open text file with vim editor, and execute command line <code>%s/^M//g</code>, which will delete all ^M character. Noticed tha ^M is typed by pressing Control key + V+ M.</p>
+    </div>
 
-<p>&#8220;Hello world&#8221; program is typically one of the simplest programs in most of programming language, and &#8220;NO MORE HELLO WORLD&#8221; always reminds me working hard to get through the tough life.</p>
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
 
-<h5 id='acknowledgements'>Acknowledgements</h5>
 
-<p>This blog is based on github pages and Jekyll-Bootstrap, thanks to thoses who dedicates making this freely and easily.</p>
+  
+     
+    	<li><a href="/categories.html#trick-ref">
+    		trick <span>1</span>
+    	</a></li>
+    
+  
 
-<p>And thanks to my roommates <a href='http://demote.github.io'>Jiang ji</a> and <a href='http://www.renren.com/200608621'>Ma Jiuyue</a> who help me get into this.</p>
-<hr />
-<h3 id='about_me'>About Me</h3>
-<p align='middle'><img src='/assets/images/figure.jpg' /> </p><p align='middle'>(Filmed at Nanjing Yangtse River Bridge in May 2013) </p><p> </p><p> </p>
-<p>Born and brought up in Hei Longjiang Province of China ,and got Bachelor&#8217;s Degree in Computer Science from <a href='http://www.nwpu.edu.cn'>Northwestern Polytechnical University</a> in summer 2010,then undertaken further study for Master&#8217;s Degree in <a href='http://www.ict.ac.cn'>Institute of Computing Technology</a>,Chinese Acadamy of Sciences. Now I am pursuiting Ph.D. Degree in <a href='http://www.iie.ac.cn'>Institute of Information Engineering</a>, Chinese Acadamy of Sciences. Currently I am focusing on research of Big Data Management and Big Data Analysis.</p>
 
-<p>My favor includes sports,tour,history,reading and watching films. I dislike writing, and sometimes hate being alone. I do love sports, especially football and basketball, and recently addicted by badmiton.</p>
+    </ul>
+    
 
-<p>Follow me <a href='http://weibo.com/u/2120741027'>@sina weibo</a></p>
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#control m-ref">control m <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#dos2unix-ref">dos2unix <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/lessons/First" title="First">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+   
   </div>
 </div>
 

@@ -8,5 +8,6 @@ http://username.github.io/tags.html
 http://username.github.io/archive.html
 http://username.github.io/index.html
 
+http://username.github.io/trick/How-to-solve-problem-of-text-file-with-control-m-characters
 http://username.github.io/lessons/First
 http://username.github.io/lessons/jekyll-introduction
